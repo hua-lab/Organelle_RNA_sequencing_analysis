@@ -53,9 +53,9 @@ perl local_align_inserts_vs_intron_blast.pl
 ```
 
 ## ✅ Outputs
-
+```bash
 ndhB_groupII_insertion_count_chr1-3.tsv: Table summarizing intron-retention frequencies
 insert_fastas/: Per-sample FASTA files containing unspliced reads
 merged_fastas/: Merged genotype-wise FASTA files for downstream alignment or BLAST
 ndhB_insert_vs_intron_blast.tsv: Summary of local alignment results
-
+```
