@@ -10,13 +10,12 @@ All scripts and data files referenced are provided in this repository.
 
 ## 📁 1. Clone the Repository
 
-```bash
 git clone https://github.com/hua-lab/Organelle_RNA_sequencing_analysis.git
 cd Organelle_RNA_sequencing_analysis
 
 
 ## ⚙️ 2. Run Method S1 – Demultiplex and Strand-Correct FASTQ Files
-```bash
+
 mv *.* ./raw_FASTQs
 cd raw_FASTQs
 perl filter_barcoded_fastq_seqs.pl
