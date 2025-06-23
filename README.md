@@ -20,7 +20,14 @@ The supplementary files listed below match those submitted with the manuscript t
 - `Method S1.txt`: `filter_barcoded_fastq_seqs.pl` — Perl script for barcode filtering and strand correction  
 - `Method S2.txt`: `run_minimap_alignments.sh` — Bash script for `minimap2` alignment and `samtools` processing  
 - `Method S3.txt`: `count_groupII_inserts_and_extract.py` — Python script for detecting unspliced reads and exporting FASTA files  
-- `Method S4.txt`: `local_align_inserts_vs_intron_blast.pl` — Perl script for `BLASTN`-based local alignment of unspliced reads  
+- `Method S4.txt`: `local_align_inserts_vs_intron_blast.pl` — Perl script for `BLASTN`-based local alignment of unspliced reads
+
+### Outputs
+- `Output Examples`:  `Examples/` — Folder containing example output files, including:
+                      `ndhB_groupII_insertion_count_chr1-3.tsv`: Example summary of intron-retention frequencies
+                      `ndhB_insert_vs_intron_blast.tsv`: Example output from local BLAST alignment
+                      Selected FASTA files from `insert_fastas/` and `merged_fastas/` for demonstration
+
 
 ### Guide  
 - For detailed step-by-step instructions for reproducing the full organelle RNA sequencing analysis pipeline, see [USAGE_GUIDE.md](USAGE_GUIDE.md).
