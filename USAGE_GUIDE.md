@@ -9,24 +9,26 @@ All scripts and data files referenced are provided in this repository.
 ---
 
 ## 📁 1. Clone the Repository
-``bash
+```bash
 git clone https://github.com/hua-lab/Organelle_RNA_sequencing_analysis.git
 cd Organelle_RNA_sequencing_analysis
-
+```
 
 ## ⚙️ 2. Run Method S1 – Demultiplex and Strand-Correct FASTQ Files
-
+```bash
 mv *.* ./raw_FASTQs
 cd raw_FASTQs
 perl filter_barcoded_fastq_seqs.pl
+```
 
 ## 🧬 3. Run Method S2 – Align Strand-Corrected Reads to the Pseudo-Genome
-
+```bash
 chmod +x ./run_minimap_alignments.sh
 ./run_minimap_alignments.sh
+```
 
 ## 🧪 4. Run Method S3 – Extract and Quantify Intron-Retaining Transcripts
-
+```bash
 # First, move the necessary files into the minimap_alignments folder:
 
 mv count_groupII_inserts_and_extract.py ./minimap_alignments
@@ -43,10 +45,12 @@ pip install biopython pandas
 # Now run the script:
 
 python count_groupII_inserts_and_extract.py
+```
 
 ## 🔍 5. Run Method S4 – BLAST Analysis of Unspliced Reads
-
+```bash
 perl local_align_inserts_vs_intron_blast.pl
+```
 
 ## ✅ Outputs
 
