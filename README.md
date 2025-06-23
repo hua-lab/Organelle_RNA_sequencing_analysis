@@ -24,13 +24,13 @@ The supplementary files listed below match those submitted with the manuscript t
 
 ### Outputs
 - `Examples/` — Folder containing example output files, including:  
-                        -  `ndhB_groupII_insertion_count_chr1-3.tsv`: Example summary of intron-retention frequencies  
-                        -  `ndhB_insert_vs_intron_blast.tsv`: Example output from local BLAST alignment  
+                        -  `ndhB_groupII_insertion_count_chr1-3.tsv`: Summary of intron-retention frequencies  
+                        -  `ndhB_insert_vs_intron_blast.tsv`: BLASTN alignment summary of unspliced reads
                         -  Selected FASTA files from `insert_fastas/` and `merged_fastas/` for demonstration  
 
 
 ### Guide  
-- For detailed step-by-step instructions for reproducing the full organelle RNA sequencing analysis pipeline, see [USAGE_GUIDE.md](USAGE_GUIDE.md).
+- `USAGE_GUIDE.md` — Step-by-step instructions for reproducing the full organelle RNA sequencing analysis pipeline, see [USAGE_GUIDE.md](USAGE_GUIDE.md).
 
 
 ---
