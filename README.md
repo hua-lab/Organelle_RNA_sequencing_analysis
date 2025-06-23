@@ -3,22 +3,22 @@
 Bioinformatics pipeline and sequencing data supporting the manuscript:  
 **Hua, Z. (2025).** *Rapid and Cost-Effective Digital Quantification of RNA Editing and Maturation in Organelle Transcripts*. *The Plant Journal* (in review).
 
-This repository contains all raw sequence data and custom scripts used in the analysis of nanopore long-read sequencing for RNA editing and intron retention in chloroplast transcripts.
-
+This repository contains all raw sequence data and custom scripts used in the analysis of nanopore long-read sequencing for RNA editing and intron retention in chloroplast transcripts.  
+The supplementary files as published with The Plant Journal Submission are described below.
 ---
 
 ## 📁 Contents
 
 ### Appendices
-- `Appendix_S1`: `raw_FASTQs/` — Raw FASTQ files from nanopore barcoded amplicon sequencing  
-- `Appendix_S2`: `pseudo_genome_ndhBD.fa` — Synthetic pseudo-genome reference for alignment 
-- `Appendix_S3`: `ndhB_intron.fa` — Reference sequence of the Group II intron in `ndhB`
+- `Appendix S1.zip`: `raw_FASTQs/` — Raw FASTQ files from nanopore barcoded amplicon sequencing  
+- `Appendix S2.txt`: `pseudo_genome_ndhBD.fa` — Synthetic pseudo-genome reference for alignment 
+- `Appendix S3.txt`: `ndhB_intron.fa` — Reference sequence of the Group II intron in `ndhB`
 
 ### Methods
-- `Method_S1`: `filter_barcoded_fastq_seqs.pl` — Perl script for barcode filtering and strand correction  
-- `Method_S2`: `run_minimap_alignments.sh` — Bash script for `minimap2` alignment and `samtools` processing  
-- `Method_S3`: `count_groupII_inserts_and_extract.py` — Python script for detecting unspliced reads and exporting FASTA files  
-- `Method_S4`: `local_align_inserts_vs_intron_blast.pl` — Perl script for `BLASTN`-based local alignment of unspliced reads  
+- `Method S1.txt`: `filter_barcoded_fastq_seqs.pl` — Perl script for barcode filtering and strand correction  
+- `Method S2.txt`: `run_minimap_alignments.sh` — Bash script for `minimap2` alignment and `samtools` processing  
+- `Method S3.txt`: `count_groupII_inserts_and_extract.py` — Python script for detecting unspliced reads and exporting FASTA files  
+- `Method S4.txt`: `local_align_inserts_vs_intron_blast.pl` — Perl script for `BLASTN`-based local alignment of unspliced reads  
 
 ### Guide
 - `USAGE_GUIDE.md`: `Step-by-Step Usage Guide`  — Reproducing the full organelle RNA sequencing analysis pipeline
