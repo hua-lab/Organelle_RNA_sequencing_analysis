@@ -23,10 +23,10 @@ The supplementary files listed below match those submitted with the manuscript t
 - `Method S4.txt`: `local_align_inserts_vs_intron_blast.pl` — Perl script for `BLASTN`-based local alignment of unspliced reads
 
 ### Outputs
-- `Output Examples`:  `Examples/` — Folder containing example output files, including:
-                      `ndhB_groupII_insertion_count_chr1-3.tsv`: Example summary of intron-retention frequencies
-                      `ndhB_insert_vs_intron_blast.tsv`: Example output from local BLAST alignment
-                      Selected FASTA files from `insert_fastas/` and `merged_fastas/` for demonstration
+- `Output Examples`:  `Examples/` — Folder containing example output files, including:  
+                      `ndhB_groupII_insertion_count_chr1-3.tsv`: Example summary of intron-retention frequencies  
+                      `ndhB_insert_vs_intron_blast.tsv`: Example output from local BLAST alignment  
+                      Selected FASTA files from `insert_fastas/` and `merged_fastas/` for demonstration  
 
 
 ### Guide  
