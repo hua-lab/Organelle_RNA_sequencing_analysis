@@ -14,6 +14,8 @@ All scripts and data files referenced are provided in this repository.
 git clone https://github.com/hua-lab/Organelle_RNA_sequencing_analysis.git
 cd Organelle_RNA_sequencing_analysis
 
+## 📁 1. Clone the Repository
+
 ## ⚙️ 2. Run Method S1 – Demultiplex and Strand-Correct FASTQ Files
 
 mv *.* ./raw_FASTQs
