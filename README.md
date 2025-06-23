@@ -18,7 +18,7 @@ This repository contains all raw sequence data and custom scripts used in the an
 - `Method_S1`: `filter_barcoded_fastq_seqs.pl` — Perl script for barcode filtering and strand correction  
 - `Method_S2`: `run_minimap_alignments.sh` — Bash script for `minimap2` alignment and `samtools` processing  
 - `Method_S3`: `count_groupII_inserts_and_extract.py` — Python script for detecting unspliced reads and exporting FASTA files  
-- `Method_S4`: `local_align_inserts_vs_intron_blast.pl` — Perl script for BLASTN-based local alignment of unspliced reads  
+- `Method_S4`: `local_align_inserts_vs_intron_blast.pl` — Perl script for `BLASTN`-based local alignment of unspliced reads  
 
 ### Guide
 - `USAGE_GUIDE.md`: `Step-by-Step Usage Guide`  — Reproducing the full organelle RNA sequencing analysis pipeline
