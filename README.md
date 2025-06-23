@@ -24,9 +24,9 @@ The supplementary files listed below match those submitted with the manuscript t
 
 ### Outputs
 - `Examples/` — Folder containing example output files, including:  
-                      `ndhB_groupII_insertion_count_chr1-3.tsv`: Example summary of intron-retention frequencies  
-                      `ndhB_insert_vs_intron_blast.tsv`: Example output from local BLAST alignment  
-                      Selected FASTA files from `insert_fastas/` and `merged_fastas/` for demonstration  
+                        -  `ndhB_groupII_insertion_count_chr1-3.tsv`: Example summary of intron-retention frequencies  
+                        -  `ndhB_insert_vs_intron_blast.tsv`: Example output from local BLAST alignment  
+                        -  Selected FASTA files from `insert_fastas/` and `merged_fastas/` for demonstration  
 
 
 ### Guide  
