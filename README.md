@@ -3,33 +3,35 @@
 Bioinformatics pipeline and sequencing data supporting the manuscript:  
 **Hua, Z. (2025).** *Rapid and Cost-Effective Digital Quantification of RNA Editing and Maturation in Organelle Transcripts*. *The Plant Journal* (in review).
 
-This repository contains all raw sequence data and custom scripts used in the analysis of nanopore long-read sequencing for RNA editing and intron retention in chloroplast transcripts.  
-The supplementary files as published with The Plant Journal Submission are described below.
+This repository includes all raw sequence data and custom scripts used to analyze Oxford Nanopore long-read sequencing of RNA editing and intron retention in chloroplast transcripts.
+
+The supplementary files listed below match those submitted with the manuscript to *The Plant Journal*.
+
 ---
 
 ## 📁 Contents
 
-### Appendices
+### Appendices  
 - `Appendix S1.zip`: `raw_FASTQs/` — Raw FASTQ files from nanopore barcoded amplicon sequencing  
-- `Appendix S2.txt`: `pseudo_genome_ndhBD.fa` — Synthetic pseudo-genome reference for alignment 
+- `Appendix S2.txt`: `pseudo_genome_ndhBD.fa` — Synthetic pseudo-genome reference for alignment  
 - `Appendix S3.txt`: `ndhB_intron.fa` — Reference sequence of the Group II intron in `ndhB`
 
-### Methods
+### Methods  
 - `Method S1.txt`: `filter_barcoded_fastq_seqs.pl` — Perl script for barcode filtering and strand correction  
 - `Method S2.txt`: `run_minimap_alignments.sh` — Bash script for `minimap2` alignment and `samtools` processing  
 - `Method S3.txt`: `count_groupII_inserts_and_extract.py` — Python script for detecting unspliced reads and exporting FASTA files  
 - `Method S4.txt`: `local_align_inserts_vs_intron_blast.pl` — Perl script for `BLASTN`-based local alignment of unspliced reads  
 
-### Guide
-- `USAGE_GUIDE.md`: `Step-by-Step Usage Guide`  — Reproducing the full organelle RNA sequencing analysis pipeline
-  
+### Guide  
+- `USAGE_GUIDE.md`: Step-by-step walkthrough for reproducing the full organelle RNA sequencing analysis pipeline  
+
 ---
 
 ## 🧪 System & Dependencies
 
 **Tested on:** macOS (ARM64)
 
-### Required tools:
+### Required Tools  
 - **Perl** ≥ 5.40.1 with **BioPerl** ≥ 1.7.8  
 - **Python** ≥ 3.11 with:
   - `biopython` ≥ 1.81  
@@ -41,6 +43,7 @@ The supplementary files as published with The Plant Journal Submission are descr
 ---
 
 ## 📬 Contact
+
 **Zhihua Hua, Ph.D.**  
 Associate Professor  
 Department of Environmental & Plant Biology  
