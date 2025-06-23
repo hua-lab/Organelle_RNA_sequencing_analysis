@@ -11,8 +11,8 @@ This repository contains all raw sequence data and custom scripts used in the an
 
 ### Appendices
 - `Appendix_S1`: `raw_FASTQs/` — Raw FASTQ files from nanopore barcoded amplicon sequencing  
-- `Appendix_S2`: `pseudo_genome_ndhBD.fa` — Synthetic pseudo-genome reference for alignment (`pseudo_genome_ndhBD.fa`)  
-- `Appendix_S3`: `ndhB_intron.fa` — Reference sequence of the Group II intron in `ndhB` (`ndhB_intron.fasta`)  
+- `Appendix_S2`: `pseudo_genome_ndhBD.fa` — Synthetic pseudo-genome reference for alignment 
+- `Appendix_S3`: `ndhB_intron.fa` — Reference sequence of the Group II intron in `ndhB`
 
 ### Methods
 - `Method_S1`: `filter_barcoded_fastq_seqs.pl` — Perl script for barcode filtering and strand correction  
