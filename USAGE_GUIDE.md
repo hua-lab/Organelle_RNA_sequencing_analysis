@@ -45,6 +45,11 @@ pip install biopython pandas
 # Now run the script:
 
 python count_groupII_inserts_and_extract.py
+
+# Deactivate the environment when done
+
+deactivate
+
 ```
 
 ## 🔍 5. Run Method S4 – BLAST Analysis of Unspliced Reads
