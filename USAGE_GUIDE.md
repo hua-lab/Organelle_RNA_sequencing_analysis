@@ -54,10 +54,10 @@ perl local_align_inserts_vs_intron_blast.pl
 
 ## ✅ Outputs
 
-**minimap_alignments/**: Contains BAM and BAI files for manual inspection of C-to-U RNA editing using IGV  
-**ndhB_groupII_insertion_count_chr1-3.tsv**: Summary table of intron-retention frequencies by sample and genotype  
-**insert_fastas/**: Per-sample FASTA files containing unspliced reads with Group II intron insertions  
-**merged_fastas/**: Genotype-wise merged FASTA files for downstream alignment or BLAST  
-**ndhB_insert_vs_intron_blast.tsv**: Summary of BLASTN alignments between unspliced inserts and the reference intron  
+`minimap_alignments/`: Contains BAM and BAI files for manual inspection of C-to-U RNA editing using IGV  
+`ndhB_groupII_insertion_count_chr1-3.tsv`: Summary table of intron-retention frequencies by sample and genotype  
+`insert_fastas/`: Per-sample FASTA files containing unspliced reads with Group II intron insertions  
+`merged_fastas/`: Genotype-wise merged FASTA files for downstream alignment or BLAST  
+`ndhB_insert_vs_intron_blast.tsv`: Summary of BLASTN alignments between unspliced inserts and the reference intron  
 
 
