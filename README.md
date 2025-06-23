@@ -23,7 +23,8 @@ The supplementary files listed below match those submitted with the manuscript t
 - `Method S4.txt`: `local_align_inserts_vs_intron_blast.pl` — Perl script for `BLASTN`-based local alignment of unspliced reads  
 
 ### Guide  
-- `USAGE_GUIDE.md`: Step-by-step walkthrough for reproducing the full organelle RNA sequencing analysis pipeline  
+- For detailed step-by-step instructions for reproducing the full organelle RNA sequencing analysis pipeline, see [USAGE_GUIDE.md](USAGE_GUIDE.md).
+
 
 ---
 
