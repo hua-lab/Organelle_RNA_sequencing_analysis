@@ -23,7 +23,7 @@ The supplementary files listed below match those submitted with the manuscript t
 - `Method S4.txt`: `local_align_inserts_vs_intron_blast.pl` — Perl script for `BLASTN`-based local alignment of unspliced reads
 
 ### Outputs
-- `Output/` — Folder containing output files from key steps, including:  
+- `Examples/` — Folder containing output files from key steps, including:  
                         -   BAM and BAI files in `minimap_alignments/` from `run_minimap_alignments.sh`  
                         -   FASTA files in `insert_fastas/` and `merged_fastas/` from `count_groupII_inserts_and_extract.py`  
                         -  `ndhB_groupII_insertion_count_chr1-3.tsv`: Summary of intron-retention frequencies from `count_groupII_inserts_and_extract.py`  
