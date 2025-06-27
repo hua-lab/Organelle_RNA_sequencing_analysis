@@ -5,7 +5,7 @@ Bioinformatics pipeline and sequencing data supporting the manuscript:
 
 This repository includes all raw sequence data and custom scripts used to analyze Oxford Nanopore long-read sequencing of RNA editing and intron retention in chloroplast transcripts.
 
-The `Supplementary Files` submitted with the manuscript to *The Plant Journal* are described below to match the contents of this repository. Key output files are also provided in the `Examples/` folder for reference.  
+The `Supplementary Files` submitted with the manuscript are described below to match the contents of this repository. Key output files are also provided in the `Examples/` folder for reference.  
 
 ---
 
