@@ -2,7 +2,7 @@
 
 This guide walks you through reproducing the full organelle RNA sequencing analysis pipeline described in:
 
-**Hua, Z. (2025).** _Rapid and Cost-Effective Digital Quantification of RNA Editing and Maturation in Organelle Transcripts_.
+**Hua, Z. (2025).** _Rapid and Cost-Effective Digital Quantification of RNA Editing and Maturation in Organelle Transcripts_.  
 All scripts and data files referenced are provided in this repository.
 
 ---
